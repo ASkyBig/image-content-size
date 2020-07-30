@@ -1,0 +1,19 @@
+{
+  "name": "image-content-size",
+  "version": "1.0.0",
+  "description": "real size of image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ASkyBig/image-content-size.git"
+  },
+  "author": "yj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASkyBig/image-content-size/issues"
+  },
+  "homepage": "https://github.com/ASkyBig/image-content-size#readme"
+}
