@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ASkyBig/image-content-size#readme",
   "dependencies": {
-    "canvas": "^2.6.1"
+    "canvas": "^2.6.1",
+    "image-to-base64": "^2.1.1"
   }
 }
