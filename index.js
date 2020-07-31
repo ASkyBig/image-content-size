@@ -1,18 +1,10 @@
 'use strict'
 const { createCanvas, loadImage }  = require('canvas')
-const webp = require('webp-converter')
-
 
 // const url = 'https://qdstatic-1252317822.image.myqcloud.com/banner/uploads/c422fc6751e9851a5d9a7c26b46ac196.png?imageMogr2/format/webp|imageMogr2/quality/80|imageMogr2/thumbnail/!366x335r'
 // const url = 'https://qdstatic-1252317822.image.myqcloud.com/banner/uploads/c422fc6751e9851a5d9a7c26b46ac196.png?imageMogr2/quality/80|imageMogr2/thumbnail/!366x335r'
 
 var getRealSize = function (url, deviation = 10) {
-  const result = webp.dwebp(url,"p.jpg","-o");
-  result.then((response) => {
-    console.log('response =====', response);
-  });
-
-
   console.log('url ====', url)
   const canvas = createCanvas(2000, 2000)
   const ctx = canvas.getContext('2d')
