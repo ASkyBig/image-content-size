@@ -1,6 +1,6 @@
 {
   "name": "image-content-size",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "real size of image",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ASkyBig/image-content-size/issues"
   },
-  "homepage": "https://github.com/ASkyBig/image-content-size#readme"
+  "homepage": "https://github.com/ASkyBig/image-content-size#readme",
+  "dependencies": {
+    "canvas": "^2.6.1"
+  }
 }
